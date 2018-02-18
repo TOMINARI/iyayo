@@ -78,7 +78,7 @@
 
 		$imageResult = json_decode($response);
 
-		error_log($imageResult->description->tags[0]);
+//		error_log($imageResult->description->tags[0]);
 
 //		replyTextMessage($bot, $event->getReplyToken(), $imageResult->tags);
 
